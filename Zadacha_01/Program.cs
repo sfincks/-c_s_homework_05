@@ -27,5 +27,5 @@ int positiveNumbers(int[] array)
 }
 
 int[] array = getArray(10, 100, 999);
-System.Console.WriteLine("В массиве "+"[" + string.Join(", ", array) + "]");
-System.Console.WriteLine(positiveNumbers(array)+" положительных чисел");
+System.Console.WriteLine("В массиве " + "[" + string.Join(", ", array) + "]");
+System.Console.WriteLine(positiveNumbers(array) + " положительных чисел");
